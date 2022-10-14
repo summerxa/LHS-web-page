@@ -7,6 +7,56 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="aligned">
+        <h1>About Lynbrook High School</h1>
+
+        <p>Hey check it out! It's a <a href="https://lhs.fuhsd.org/">link</a>!
+            Lynbrook High School is pretty cool.
+            You can't spell "school" without "choo", you know.</p>
+
+        <p class="shhh">(Okay, look.
+            I know my instructions were to make the website look good,
+            and I just used Impact for the title,
+            which is the antithesis of "looking good".
+            But you see, the name "Impact" is symbolic as it represents
+            the impact that Lynbrook students will have upon the world.
+            Thus, my use of this unpleasant font is actually integral
+            to the layout of this page.)</p>
+        
+        <p>Anyway, behold the pinnacle of graphic design, the wide Lynbrook:</p>
+
+        <img id="wide" src="https://www.fuhsd.org/cf_cloudflare/01/data/media/mobile/787.jpg?v=100219145139"></img>
     
+        <h1>OH WHAT'S THIS? A SURVEY???</h1>
+
+        <p>What is your opinion on wide Lynbrook?</p>
+        <form>
+            <input type="radio" id="uno">
+            <label for="uno">I love wide Lynbrook</label><br>
+            <input type="radio" id="dos">
+            <label for="dos">You should never have been allowed access to a computer</label><br>
+            <input type="radio" id="tres">
+            <label for="tres">Normal Lynbrook is better (WRONG ANSWER)</label><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <p class="shhh">These buttons don't do anything but I hope you had fun pushing them.</p>
+    </div>
 </body>
+<style>
+    .aligned {
+        text-align:center;
+    }
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color:lightblue;
+    }
+    .shhh {
+        font-style: italic;
+    }
+    #wide {
+        width:50em;
+        height:10em;
+    }
+</style>
 </html>
